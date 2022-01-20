@@ -717,7 +717,6 @@ img {
   padding-bottom: var(--section-padding-top-bottom-inside-margin);
 }
 .projects-item {
-  position: relative;
   border: 1px solid #eeeeee;
   flex-basis: calc(100% / 3 - 30px);
   margin-left: var(--main-margin);
@@ -730,6 +729,9 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
+.projects-thumb {
+  position: relative;
+}
 .project-item-description {
   position: absolute;
   width: 100%;
