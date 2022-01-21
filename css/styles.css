@@ -731,6 +731,7 @@ img {
 
 .projects-thumb {
   position: relative;
+  overflow: hidden;
 }
 .project-item-description {
   position: absolute;
@@ -757,7 +758,7 @@ img {
   transition: transform var(--animation-duration) var(--timing-function);
 }
 
-.project-item-description:hover {
+.projects-item:hover .project-item-description {
   transform: translateY(0);
   opacity: 1;
 }
